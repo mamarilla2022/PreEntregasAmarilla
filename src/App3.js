@@ -1,7 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemLiatContainer';
+import { Nav } from 'react-bootstrap';
 
-function App2() {
+function App3(texto) {
+  return (
+    <div className='app'>
+      <header className="App-Header">
+            
+      </header>
+ 
+      </div>
+  );
+ 
   let variable = 2;
   let label =""
 
@@ -11,22 +23,14 @@ function App2() {
     label="aprender react"
   }
 
-
-
   //forma sugar sintax de hacer lo mismo:
-let label2= variable ===1 ? "learn react" : variable === 2 ? "lo que sea" : "otra cosa";
+let label2= variable ==1 ? "learn react" : variable == 2 ? "lo que sea" : "otra cosa";
   
 //jsx ejemplos
 /* let aHrefStyle ={
   color: "black"
 } */
 
-function sub2() {
-  return
-    <div  className="app">
-    <h2>Saludos a todos!</h2>
-    </div>
-  }
 
 return (
     <div className="App">
@@ -47,5 +51,6 @@ return (
       </header>
     </div>
   );
+
 }
 
