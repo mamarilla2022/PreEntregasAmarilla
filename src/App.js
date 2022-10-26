@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import "./presentacion";
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemLiatContainer';
+import { Nav } from 'react-bootstrap';
 
 function App(texto) {
   return (
     <div className='app'>
-      
-      <presentacion desc={texto}/>
-     <sub />
+      <header className="App-Header">
+            <NavBar />
+            <ItemListContainer greeting="hola como estan"/>
+
+      </header>
+ 
       </div>
   );
  
