@@ -1,16 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import "./presentacion";
 
-function App(texto) {
-  return (
-    <div className='app'>
-      
-      <presentacion desc={texto}/>
-     <sub />
-      </div>
-  );
- 
+function App() {
   let variable = 2;
   let label =""
 
@@ -20,14 +11,22 @@ function App(texto) {
     label="aprender react"
   }
 
+
+
   //forma sugar sintax de hacer lo mismo:
-let label2= variable ==1 ? "learn react" : variable == 2 ? "lo que sea" : "otra cosa";
+let label2= variable ===1 ? "learn react" : variable === 2 ? "lo que sea" : "otra cosa";
   
 //jsx ejemplos
 /* let aHrefStyle ={
   color: "black"
 } */
 
+function sub2() {
+  return
+    <div  className="app">
+    <h2>Saludos a todos!</h2>
+    </div>
+  }
 
 return (
     <div className="App">
@@ -48,6 +47,6 @@ return (
       </header>
     </div>
   );
-
 }
+
 export default App;
