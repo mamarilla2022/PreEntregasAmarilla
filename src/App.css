@@ -1,13 +1,15 @@
-.App {
+.App{
   text-align: center;
 }
 
-
-.App-header {
+.App-header{
 
   display: flex;
-  float: left;
-  padding: 10px;
-  list-style: none;
+ 
+}
 
-  }
+.App-header ul il {
+  padding: 10px;
+  float: left;
+  list-style: none;
+}
