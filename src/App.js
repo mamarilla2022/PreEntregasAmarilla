@@ -1,11 +1,11 @@
 import './App.js';
+import "./App.css";
 
 
 function App() {
   return (
     <div className='app'>
       <header className="App-Header">
-           <>
             <h1>Gorrin Bross</h1>
 
            <ul>
@@ -14,7 +14,6 @@ function App() {
                 <li><a href="./">Quienes somos</a> </li>
                 <li><a href="./">Contacto</a> </li>
             </ul>
-            </>
       </header>
  
       </div>
