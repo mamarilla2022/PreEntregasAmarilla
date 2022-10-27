@@ -1,19 +1,17 @@
 import './App.js';
 import "./App.css";
-
+import Brand from "./components/Brand"
+import Menu from './components/Menu.js';
 
 function App() {
   return (
-    <div className='app'>
-      <header className="App-Header">
-            <h1>Gorrin Bross</h1>
+    <div className='App'>
+      <header className="App-header">
 
-           <ul>
-                <li><a href="./">Inicio</a></li>
-                <li><a href="./">Nuevo</a> </li>
-                <li><a href="./">Quienes somos</a> </li>
-                <li><a href="./">Contacto</a> </li>
-            </ul>
+    <Brand>Ejemplo</Brand>
+    <Menu />
+
+           
       </header>
  
       </div>
