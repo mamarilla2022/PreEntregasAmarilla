@@ -1,17 +1,18 @@
 import './App.js';
 import "./App.css";
-import Brand from "./components/Brand"
-import Menu from './components/Menu.js';
+import "./components/Contador";
+import Contar from './components/Contador';
+import Contador from './components/Contador';
+
+
 
 function App() {
   return (
     <div className='App'>
       <header className="App-header">
+        <Contador/>
 
-    <Brand>Ejemplo</Brand>
-    <Menu />
 
-           
       </header>
  
       </div>
