@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemLiatContainer';
+import ItemListContainer from './components/ItemListContainer';
 import { Nav } from 'react-bootstrap';
 
 function App3(texto) {
